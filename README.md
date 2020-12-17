@@ -7,8 +7,13 @@
    ```
           
 2) Ensure that make, docker and docker-compose are installed for your OS
+
+   ```
+   https://docs.docker.com/engine/install/#server
+   https://docs.docker.com/compose/install/
+   ```
           
-3) Start Textile Bucket containers (Can be hosted remotely too)
+3) Start the Textile Bucket containers (Can be hosted remotely too)
    ```
    make buck-up
    ```
@@ -41,5 +46,6 @@
    
    Replace {bucket_name} with the actual bucket name
    
+          
           
 **Note:** Above backup process can also be automated by writing a simple cron script
