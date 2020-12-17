@@ -38,5 +38,8 @@
    ```
    buck --api 127.0.0.1:3006 init --name={bucket_name} --private=true --existing
    ```
+   
+   Replace {bucket_name} with the actual bucket name
+   
           
 **Note:** Above backup process can also be automated by writing a simple cron script
